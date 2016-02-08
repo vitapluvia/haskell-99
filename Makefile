@@ -1,7 +1,6 @@
 all:
-	ghc *.hs
+	ghc --make -o ./bin/program -outputdir ./dump/ problem-03.hs
 
 clean:
-	rm *.hi
-	rm *.o
-	ls -la | grep "x " | grep -v "^d" | cut -d " " -f 14 | xargs rm -f
+	rm -rf ./bin/*
+	rm -rf ./dump/*
