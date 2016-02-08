@@ -1,3 +1,4 @@
+-- Template File
 myFunc [] = 0
 myFunc x = x + 1
 

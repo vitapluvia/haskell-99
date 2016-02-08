@@ -1,3 +1,4 @@
+-- Get second to last entry of an array
 myButLast [] = 0
 myButLast x = x !! (length x - 2)
 

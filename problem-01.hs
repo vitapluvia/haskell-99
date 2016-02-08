@@ -1,3 +1,4 @@
+-- Get last entry of an array
 myLast [] = 0
 myLast x = x !! (length x - 1)
 
